@@ -1,0 +1,26 @@
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLEONLY",
+    "arn": "arn:aws:iam::111122223333:user/demo-security-user",
+    "accountId": "111122223333",
+    "userName": "demo-security-user"
+  },
+  "eventTime": "2026-09-12T22:15:00Z",
+  "eventSource": "signin.amazonaws.com",
+  "eventName": "ConsoleLogin",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.25",
+  "userAgent": "Mozilla/5.0 synthetic-demo",
+  "responseElements": {
+    "ConsoleLogin": "Success"
+  },
+  "additionalEventData": {
+    "MFAUsed": "No"
+  },
+  "eventID": "example-cloudtrail-event-001",
+  "eventType": "AwsConsoleSignIn",
+  "managementEvent": true,
+  "recipientAccountId": "111122223333"
+}
